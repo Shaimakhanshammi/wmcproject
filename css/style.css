@@ -1,0 +1,37 @@
+body{
+}
+header{
+    background: #f2f2f2;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.logo{display: flex;/* flex-basis: 15%; *//* max-width: 15%; */}
+.logo img{
+
+display: flex;
+
+width: 150px;
+}
+nav{
+    flex-basis: 85%;
+    max-width: 85%;
+}
+nav ul{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: #000;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px;
+}
